@@ -1,19 +1,87 @@
 START
 
+
 int a;
+
 float l;
+
 int b,c;
-//float bb,cc;
+
+float bb,cc;
+
 a=10;
-//l=10.2;
+
+l=10.2;
+
 a=5;
-//l=2.2;
-int apex;
-apex=6;
+
+a=a+(1);
+
+bb=2.2;
+
+b=(-2);
+
+int pasquinade;
+pasquinade=6;
+
 int item=5;
-//float foxtrot=5.4;
 
-// TODO: float and char value integrate
+float jajanken = 5.5;
 
+a*a;
+3/3;
+4-4;
+3/0;
+
+
+IF a : l+(2);
+IF 0 : item+pasquinade;
+
+IF a : a+a;
+ELSE : item+a;
+
+IF 0 : a+a;
+ELSE : 4/2*3;
+
+// loops
+
+[F] (item;|10|1;) : {
+    item+(2); a;
+}
+
+[F] (bb;|10|1;) : {
+    item+(2); a;
+}
+
+[W] (0;|10) : {
+    item;
+}
+
+[W] (a;|10) : {
+    item;
+}
+
+
+<0><0> { a };
+
+<0><0> { a+(1) };
+
+// Print 5
+
+(++)(2+(3););
+
+// Print a+item
+
+(++)(a+(item););
+
+<FACTORIAL>(5);
+
+<FACTORIAL>(10);
+
+RAND>>(1,100);
+
+RAND>>(1,10000);
+
+RAND>>(200,100);
 
 END

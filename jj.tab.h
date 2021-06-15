@@ -41,25 +41,43 @@
    enum yytokentype {
      NUMBER = 258,
      VAR = 259,
-     START = 260,
-     END = 261,
-     INT = 262,
-     FLOAT = 263,
-     CHAR = 264,
-     COMMA = 265,
-     SINGLE_QUOTES = 266,
-     SEMI_COLON = 267,
-     EQUALS = 268,
-     BRACKET_OPEN = 269,
-     BRACKET_CLOSE = 270,
-     CURLY_BRACE_OPEN = 271,
-     CURLY_BRACE_CLOSE = 272,
-     BIG_BRACKET_OPEN = 273,
-     BIG_BRACKET_CLOSE = 274,
-     PLUS = 275,
-     SUB = 276,
-     MUL = 277,
-     DIV = 278
+     FLOAT_VALUE = 260,
+     CHARACTER_VALUE = 261,
+     START = 262,
+     END = 263,
+     INT = 264,
+     FLOAT = 265,
+     CHAR = 266,
+     IF = 267,
+     ELSE = 268,
+     ELIF = 269,
+     FOR_LOOP = 270,
+     WHILE = 271,
+     PRINT = 272,
+     ADD_THESE = 273,
+     FACTORIAL = 274,
+     ARRAY = 275,
+     arrayName = 276,
+     RAND = 277,
+     COMMA = 278,
+     SINGLE_QUOTES = 279,
+     SEMI_COLON = 280,
+     EQUALS = 281,
+     COLON = 282,
+     EOL = 283,
+     LESS_THAN = 284,
+     GT_THAN = 285,
+     CURLY_BRACE_OPEN = 286,
+     CURLY_BRACE_CLOSE = 287,
+     BIG_BRACKET_OPEN = 288,
+     BIG_BRACKET_CLOSE = 289,
+     WALL = 290,
+     SUB = 291,
+     PLUS = 292,
+     DIV = 293,
+     MUL = 294,
+     BRACKET_CLOSE = 295,
+     BRACKET_OPEN = 296
    };
 #endif
 
@@ -70,15 +88,16 @@ typedef union YYSTYPE
 {
 
 /* Line 1676 of yacc.c  */
-#line 14 "jj.y"
+#line 37 "jj.y"
 
     int intVal;
     char strVal[1000];
+	float floatVal;
 
 
 
 /* Line 1676 of yacc.c  */
-#line 82 "jj.tab.h"
+#line 101 "jj.tab.h"
 } YYSTYPE;
 # define YYSTYPE_IS_TRIVIAL 1
 # define yystype YYSTYPE /* obsolescent; will be withdrawn */

@@ -1,0 +1,27 @@
+START
+
+int a=1; 
+float l;
+char charmander = **neoteric**;
+//float ex = 0.2+1.0;
+int b,c;
+float bb,cc;
+a=10;
+l=(10.2)+(2.2);
+a=5;
+a=(a)+(1);
+bb=2.2;
+int pasquinade;
+pasquinade=6;
+int item=5;
+
+// TODO: ARRay
+// arithmetic
+a+a;
+l+l;
+a-a;
+a*a;
+3/3;
+
+
+END

@@ -20,7 +20,7 @@ int isDeclared(char curr[]) {
     pr
     for(int i=0;i<place;i++){
         if( strcmp(id[i].name,curr) == 0 ){
-            if(SHOW) printf("%s declared before",id[i].name);
+            if(SHOW) printf("%s declared before\n",id[i].name);
             return i;
         }
     }
